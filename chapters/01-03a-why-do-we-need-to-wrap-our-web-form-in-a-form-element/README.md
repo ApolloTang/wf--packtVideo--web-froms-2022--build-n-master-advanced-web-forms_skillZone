@@ -20,7 +20,7 @@ Wrapping `<input/> ` in `<form/>` element register the form in DOM, which you ca
  </form>
  <one></one>
  <script>
-   console.log('fdsadf')
+      console.log(document.forms)
  </script>
 </body>
 </html>
