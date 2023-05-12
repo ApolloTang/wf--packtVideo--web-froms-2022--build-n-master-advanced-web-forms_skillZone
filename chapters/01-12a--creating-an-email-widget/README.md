@@ -1,0 +1,32 @@
+# Styling invalid input element
+
+We can style invalid input element with pseudo class:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+  <style>
+    .form-row input[type='email']:invalid {
+      border: 1px solid red;
+    }
+  </style>
+  <body>
+    <form>
+      <div class="form-row">
+        <label for="for-id-name-1">user name:</label>
+        <input id="for-id-name-1" type="text" name="usernameVariabaleName1" />
+      </div>
+      <div class="form-row">
+        <label for="for-id-email-2">Email2:</label>
+        <input id="for-id-email-2" type="email" name="emailVariabaleName2" />
+      </div>
+      <button>summit</button>
+    </form>
+  </body>
+</html>
+```
+
