@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <form action="" method="get" class="profile-form">
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="wally@gmail.com" />
+      </div>
+
+      <fieldset class="radio-form-row">
+        <legend>Allow push notifications?</legend>
+
+        <!--  first selection - no -->
+        <input type="radio" id="push-type-1" name="push-type" value="no" />
+        <label for="push-type-1" class="radio-label">No</label>
+
+        <!--  second selection - yes -->
+        <input type="radio" id="push-type-2" name="push-type" value="yes" checked />
+        <label for="push-type-2" class="radio-label">Yes</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
